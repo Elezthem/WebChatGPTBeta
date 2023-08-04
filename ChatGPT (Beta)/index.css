@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #343541;
+    color: #ECECF1;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+
+body>p {
+    width: 600px;
+    margin: 50px auto;
+    line-height: 170%;
+    text-align: center;
+    color: #b5b5bc;
+}
+
+#messages {
+    width: 700px;
+    margin: 0 auto;
+    max-height: 600px;
+    overflow-y: auto;
+    margin-bottom: 220px;
+}
+
+#messages::-webkit-scrollbar {
+    width: 5px;
+}
+
+#messages::-webkit-scrollbar-track {
+    background: #575abc;
+}
+
+#messages::-webkit-scrollbar-thumb {
+    background: #17181e;
+}
+
+#messages::-webkit-scrollbar-thumb:hover {
+    background: #d26565;
+}
+
+.mess-user {
+    background: #434654;
+    padding: 20px 25px;
+}
+
+.mess-chat {
+    background: #2b2d37;
+    padding: 20px 25px;
+}
+
+form {
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+form input {
+    background: #40414F;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid transparent;
+    color: #ECECF1;
+    outline: none;
+    width: 500px;
+}
+
+form input:focus {
+    border-color: #d26565;
+}
+
+form input::-webkit-input-placeholder {
+    color: #6c6e83;
+}
